@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* h1 is for large titles of ability tests. */
+h1 {
+	color: #3c3c5d;
+	margin-left: 10%;
+}
+
+/* h3 and p are for text of questions. */
+h3, p, .choices, .ranking {
+	text-align: center;
+	font-family: FangSong;
+	color: #3c3c5d;
+}
+
+/* English needs a special font-family. */
+#English {
+	font-family: serif;
+}
+
+/* .questionChunk is for a total chunk of questions
+   and .choices. */
+.questionChunk {
+	margin: auto;
+	border: 1px solid #e0e0eb;
+	width: 75%;
+	padding: 30px;
+}
+
+/* This is for buttons of multiple choices. */
+.choices > button {
+	margin: 10px;
+	height: 30px;
+	width: 150px;
+	border-radius: 10px;
+	border: none;
+	background-color: #e0e0eb;
+	font-size: 15px;
+	font-family: FangSong;
+	color: #3c3c5d;
+}
+
+/* .label is for the little subscription "是"/"否" for ranking questions.*/
+.ranking > .label {
+	display: inline-block;
+}
+
+/* This is for buttons of ranking questions. */
+.ranking > button {
+	border-radius: 100%;
+	border: 4px solid #c1c1d7;
+	background-color: white;
+	display: inline-block;
+	margin: 10px;
+}
+
+/* The following four blocks are for ranking questions. */
+.veryNot {
+	height: 20px;
+	width: 20px;
+}
+
+.Not {
+	height: 25px;
+	width: 25px;
+}
+
+.Neutral {
+	height: 30px;
+	width: 30px;
+}
+
+.Yes {
+	height: 35px;
+	width: 35px;
+}
+
+.veryYes{
+	height: 40px;
+	width: 40px;
+}
