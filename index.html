@@ -2,14 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>01</title>
-    <link type="text/css" rel="stylesheet" href="assets/css/CSSv2.css" />
-    <script type="text/javascript" src="JSv2.js"></script>
+        
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--Custom CSS-->
+    <link type="text/css" rel="stylesheet" href="assets/styles.css" />
   </head>
 
   <body>
   <!--文字能力-->
-    <div class="Literature Ability">
+    <div class="row text-center">
+    <div class="abilityChunk activeAbility">
       <h1>语言文字能力倾向</h1>
       <div class="questionChunk">
         <h3>阅读速度快</h3>
@@ -91,10 +95,12 @@
           <p class="label">4个以上</p>
         </div>
       </div>
+      <button class="buttonNext">下一页</button>
+    </div>
     </div>
      
     <!--数字能力-->
-    <div class="Mathematical Ability">
+    <div class="abilityChunk">
       <h1>数字能力倾向</h1>
             
       <div class="questionChunk">
@@ -177,10 +183,11 @@
           <button class="choiceD">D. 17</button>
         </div>
       </div>
+      <button class="buttonNext">下一页</button>
     </div>
       
     <!--几何想象能力-->
-    <div class="Spatial Ability">
+    <div class="abilityChunk">
       <h1>几何想象能力倾向</h1>
       
       <div class="questionChunk">
@@ -247,10 +254,11 @@
           <button class="choiceB">B. 不可能</button>
         </div>
       </div>
+      <button class="buttonNext">下一页</button>
     </div>
       
     <!--手眼协调能力-->
-    <div class="Kinesthetic Ability">
+    <div class="abilityChunk">
       <h1>手眼协调能力倾向</h1>
       
       <div class="questionChunk">
@@ -317,10 +325,11 @@
           <p class="label">是</p>
         </div>
       </div>
+      <button class="buttonNext">下一页</button>
     </div>
      
     <!--交流能力-->
-    <div class="Communication Ability"> 
+    <div class="abilityChunk"> 
       <h1>交流能力倾向</h1>
       
       <div class="questionChunk">
@@ -400,10 +409,11 @@
           <p class="label">是</p>
         </div>
       </div>
+      <button class="buttonNext">下一页</button>
     </div>
     
     <!--团队协作能力-->
-    <div class="CooperationAbility">
+    <div class="abilityChunk">
       <h1>团队协作能力倾向</h1>
       
       <div class="questionChunk">
@@ -470,7 +480,20 @@
           <p class="label">是</p>
         </div>
       </div>
+      <button class="buttonNext">查看结果</button>
     </div>
+    
+
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"
+        integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+        crossorigin="anonymous""></script>
+    
+    <!--Bootstrap JS-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!--Custom JS-->
+    <script src="assets/script.js"></script>
   </body>
 
 </html>

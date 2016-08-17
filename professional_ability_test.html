@@ -1,48 +1,46 @@
-</!DOCTYPE html>
+<!doctype html>
+
 <html>
 	<head>
-		<title>职业倾向测试</title>
 		<meta charset="utf-8">
+
+    	<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!--Custom CSS-->
+	    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+
+		<title>职业倾向测试</title>
 	</head>
+
 	<body>
-		<header class="container">
-			<h1 class="row text-center">职业倾向测试</h1>
-			<h2 class="col-sm-12 text-right">
-				<a class="btn btn-default" href="https://github.com/How-Xing/professional_ability_test/blob/master/README.md" role="button">联系制作者</a>
-			</h2>
-		</header>
-		<div class="container">
-			<p class="text-left">
-			 	一个幽灵，共产主义的幽灵，在欧洲游荡。为了对这个幽灵进行神圣的围剿，旧欧洲的一切势力，教皇和沙皇、梅特涅和基佐、法国的激进派和德国的警察，都联合起来了。有哪一个反对党不被它的当政的敌人骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去回敬更进步的反对党人和自己的反动敌人呢？从这一事实中可以得出两个结论：共产主义已经被欧洲的一切势力公认为一种势力；现在是共产党人向全世界公开说明自己的观点、自己的目的、自己的意图并且拿党自己的宣言来反驳关于共产主义幽灵的神话的时候了。为了这个目的，各国共产党人集会于伦敦，拟定了如下的宣言，用英文、法文、德文、意大利文、弗拉芒文和丹麦文公布于世。
-			</p>
-			<div class="row text-center">
-				<a class="btn btn-primary btn-lg" href="01.html" role="button">开始测试</a>
+		<div id="0" class="page">
+			<header class="container">
+				<h1 class="row text-center">职业倾向测试</h1>
+				<h2 class="col-sm-12 text-right">
+					<a class="btn btn-default" href="https://github.com/How-Xing/professional_ability_test/blob/master/README.md" role="button">联系制作者</a>
+				</h2>
+			</header>
+			<div class="container">
+				<p class="text-left">
+				 	一个幽灵，共产主义的幽灵，在欧洲游荡。为了对这个幽灵进行神圣的围剿，旧欧洲的一切势力，教皇和沙皇、梅特涅和基佐、法国的激进派和德国的警察，都联合起来了。有哪一个反对党不被它的当政的敌人骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去回敬更进步的反对党人和自己的反动敌人呢？从这一事实中可以得出两个结论：共产主义已经被欧洲的一切势力公认为一种势力；现在是共产党人向全世界公开说明自己的观点、自己的目的、自己的意图并且拿党自己的宣言来反驳关于共产主义幽灵的神话的时候了。为了这个目的，各国共产党人集会于伦敦，拟定了如下的宣言，用英文、法文、德文、意大利文、弗拉芒文和丹麦文公布于世。
+				</p>
+				<div class="row text-center">
+					<a class="btn btn-primary btn-lg" href="01.html" role="button">开始测试</a>
+				</div>
 			</div>
 		</div>
 
-		                        <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group" aria-label="Options">
-                            <label class="btn btn-default option agree max" onclick="setAnswer(1, -3);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option agree med" onclick="setAnswer(1, -2);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option agree min" onclick="setAnswer(1, -1);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option neutral" onclick="setAnswer(1, 0);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option disagree min" onclick="setAnswer(1, 1);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option disagree med" onclick="setAnswer(1, 2);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                            <label class="btn btn-default option disagree max" onclick="setAnswer(1, 3);">
-                                <input type="radio" name="options" autocomplete="off">
-                            </label>
-                        </div>
+		<div id="1" class = "page">
+			<header>第二页</header>
+		</div>
+
+		<!--Jquery-->
+		<script src="https://code.jquery.com/jquery-3.1.0.js"
+					integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+					crossorigin="anonymous""></script>
+
+		<!--Custom JS-->
+		<script src="assets/js/Pageturn.js"></script>
 	</body>
 </html>
